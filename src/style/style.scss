@@ -1,0 +1,49 @@
+@import "global/reset.min";
+@import "global/fonts";
+@import "global/base";
+@import "global/title";
+
+@import "vendors/slick";
+@import "vendors/slick-theme";
+@import "vendors/jquery.formstyler";
+
+@import "template/header";
+@import "template/page";
+@import "template/footer";
+
+@import "global/form";
+
+@import "elem/elem-action";
+@import "elem/elem-logo";
+@import "elem/elem-btn";
+@import "elem/elem-slogan";
+@import "elem/elem-down";
+@import "elem/elem-svg";
+@import "elem/elem-info";
+@import "elem/elem-buble";
+@import "elem/elem-social";
+@import "elem/elem-feedback";
+@import "elem/elem-reset";
+
+@import "box/box-action";
+@import "box/box-steps";
+@import "box/box-prize";
+@import "box/box-week";
+@import "box/box-recept";
+@import "box/box-social";
+@import "box/question";
+@import "box/question-form";
+@import "box/box-rules";
+
+@import "form/form-reg";
+
+@import "page/page-anketa";
+@import "page/page-prize";
+@import "page/page-prize-gen";
+@import "page/page-check";
+@import "page/page-faq";
+@import "page/page-code";
+@import "page/page-winners";
+@import "page/page-kabinet";
+@import "box/box-kabinet";
+@import "box/box-prizefight";

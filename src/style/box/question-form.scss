@@ -1,0 +1,244 @@
+.question-form {
+	
+	background: #712388;
+	margin: 58px 0px 0 -21px;
+	padding: 50px 263px 43px;
+	text-align: center;
+	box-shadow: 0 0 32px 0 rgba(0,0,0,0.45);
+	
+	@media (max-width: 1280px) {
+		margin: 45px 0px 0 -17px;
+		padding: 39px 208px 32px;
+	}
+	
+	@media screen and (max-width: 980px) {
+		margin: 30px 0px 0;
+		padding: 22px 15px 35px;
+	}
+	
+	&__inner {
+		position: relative;
+	}
+	
+	&__title {
+		font-size: 24px;
+		line-height: 33px;
+		margin-bottom: 30px;
+		
+		@media (max-width: 1280px) {
+			font-size: 19px;
+			line-height: 26px;
+			margin-bottom: 27px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			font-size: 18px;
+			line-height: 24px;
+			margin-bottom: 26px;
+		}
+	}
+	
+	&__label {
+		color: #2ce8ec;
+		margin-bottom: 6px;
+		
+		@media (max-width: 1280px) {
+			margin-bottom: 6px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			margin-bottom: 5px;
+		}
+	}
+	
+	&__row {
+		position: relative;
+		
+		& + & {
+			margin-top: 29px;
+			
+			@media (max-width: 1280px) {
+				margin-top: 23px;
+			}
+			
+			@media screen and (max-width: 980px) {
+				margin-top: 21px;
+			}
+		}
+		
+		& + &--button {
+			margin-top: 54px;
+			
+			@media (max-width: 1280px) {
+				margin-top: 46px;
+			}
+			
+			@media screen and (max-width: 980px) {
+				margin-top: 65px;
+			}
+		}
+		
+		&--button {
+			position: relative;
+			
+			& .error {
+				top: -50px;
+				
+				@media (max-width: 1280px) {
+					top: -45px;
+				}
+				
+				@media screen and (max-width: 980px) {
+					top: -52px;
+				}
+			}
+		}
+	}
+	
+	& .row--checkbox {
+		padding-top: 11px;
+		line-height: 25px;
+		
+		@media (max-width: 1280px) {
+			padding-top: 15px;
+			line-height: 17px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			padding-top: 3px;
+			line-height: 28px;
+			padding-left: 32px;
+			padding-right: 34px;
+			max-width: 100%;
+		}
+
+		& .row--check {
+			padding-top: 0;
+		}
+	}
+	
+	& .row--span {
+		@media screen and (max-width: 980px) {
+			margin-left: 35px;	
+		}
+	}
+	
+	& .row--span span {
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 21px;
+		
+		@media (max-width: 1280px) {
+			font-size: 12px;
+			line-height: 17px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			font-size: 11px;
+			line-height: 14px;
+		}
+	}
+	
+	&__button {
+		width: 230px;
+		
+		@media (max-width: 1280px) {
+			width: 184px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			width: 180px;
+		}
+	}
+	
+	&__desc {
+		color: #bd86cd;
+		font-size: 12px;
+		line-height: 16px;
+		margin-top: 26px;
+		
+		@media (max-width: 1280px) {
+			font-size: 11px;
+			line-height: 16px;
+			margin-top: 17px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			font-size: 11px;
+			line-height: 16px;
+			margin-top: 23px;
+		}
+	}
+	
+	&__thank {
+		display: none;
+		padding: 110px 0 145px;
+		
+		@media (max-width: 1280px) {
+			padding: 90px 0 118px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			padding: 59px 0 68px;
+		}
+	}
+	
+	&__thank &__title {
+		margin-bottom: 26px;
+		font-size: 24px;
+		
+		@media (max-width: 1280px) {
+			margin-bottom: 22px;
+			font-size: 19px;
+		}
+		
+		@media screen and (max-width: 980px) {
+			margin-bottom: 24px;
+		}
+	}
+	
+	&__thank &__text {
+		font-size: 20px;
+		line-height: 30px;
+		border: 1px dashed #a553bd;
+		border-radius: 53px;
+		padding: 22px 20px;
+		margin: 0 -26px;
+		
+		@media screen and (max-width: 1280px) {
+			font-size: 16px;
+			line-height: 24px;
+			border-radius: 42px;
+			padding: 17px 20px;
+			margin: 0 -19px;
+		}
+
+		@media screen and (max-width: 980px) {
+			font-size: 14px;
+			line-height: 20px;
+			border-radius: 48px;
+			padding: 14px 24px 20px;
+			margin: 0 -2px;
+		}
+	}
+
+	& .elem-btn {
+		background-color: #73d7e6;
+		border-radius: 42px;
+		color: #042e5a;
+		border: 0;
+		text-transform: none;
+		font-weight: normal;
+		font-size: 17px;
+		padding: 19px 24px;
+
+		@media (max-width: 1280px) {
+			font-size: 14px;
+			padding: 13px 24px;
+		}
+
+		@media (max-width: 980px) {
+			padding: 11px 24px;
+		}
+	}
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="robots" content="noindex,nofollow" />
+		<title>Название сайта</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<script src="libs/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="libs/slick.min.js"></script>
+		<script src="libs/jquery.formstyler.js"></script>
+		<script src="libs/jquery.maskedinput.js"></script>
+		<script src="libs/jquery.ui.autocomplete.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/test.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<header class="header header--inner">
+				<nav class="menu">
+			        <div class="container">
+			            <button class="menu__mobile">
+			                <span>menu</span>
+			            </button>
+			            <div class="menu-logo">
+			                <img src="./img/grand-logo.svg" alt="">
+			            </div>
+			            <div class="elem-action hidden-sm hidden-lg">
+			                До конца акции <span class="elem-action__num">30</span> дней
+			            </div>
+			            <ul class="menu-list">
+			                <li class="menu-item hidden-sm hidden-lg"><a href="#" class="menu-btn ">Выход</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">О продукте</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Правила и призы</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Победители</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Вопрос-ответ</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link color--blue">Личный кабинет</a></li>
+			                <li class="menu-item hidden-xs"><a href="#" class="menu-btn ">Выход</a></li>
+			            </ul>
+			        </div>
+			    </nav>
+			</header>
+            
+			
+			<div class="page-anketa">
+				<div class="container">
+					
+					<div class="title">
+                        <div class="title-item">
+                            <h1 class="title page-registration__title page-anketa__title">Анкета
+                            </h1>
+                            <div class="title__text">Осталось совсем чуть-чуть, заполните данные ниже</div>
+                        </div>
+                        <div class="title-item hidden-xs">
+                            <div class="elem-action title--border">
+                                До конца акции осталось <span class="elem-action__num">30</span> дней
+                            </div>
+                        </div>
+                    </div>
+					
+					<form class="page-anketa__form" id="form__anketa">
+						<div class="page-anketa__row">
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Имя*
+									</label>
+									<input class="page-anketa__input input" type="text">
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Город проживания*
+									</label>
+									<input class="page-anketa__input input" id="input__adress__block" type="text">
+									<div class="search__wrapper">
+										<div class="search__res"></div>
+									</div>
+								</div>
+								<div class="page-anketa__row">
+									<label class="page-anketa__label label">
+									</label>
+									<div class="page-anketa__input--desc">
+										Введите несколько букв из название города или населенного пункта и выберите его в появившемся списке
+									</div>
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">E-mail*
+									</label>
+									<input class="page-anketa__input input" type="text">
+								</div>
+								<div class="page-anketa__row--line">
+									<div class="page-anketa__row">
+                                        <label class="page-anketa__label">Дата рождения*</label>
+                                        <div class="page-anketa__wrap">
+                                            <div class="page-anketa__item col">
+                                               <input class="page-anketa__input input input--date" type="text" placeholder="дд.мм.гггг">
+                                            </div>
+                                            <div class="page-anketa__item col">
+                                                <label class="page-anketa__label label min">Пол*</label>
+                                                <label class="page-anketa__radio">
+                                                    <input name="radio" type="radio" checked="checked">
+                                                    <span class="page-anketa__radio--span radio--span">
+                                                        <span class="hidden-xs">М</span>
+                                                        <span class="hidden-sm hidden-lg">Мужской</span>
+                                                    </span>
+                                                </label>
+                                                <label class="page-anketa__radio">
+                                                    <input name="radio" type="radio">
+                                                    <span class="page-anketa__radio--span radio--span">
+                                                        <span class="hidden-xs">Ж</span>
+                                                        <span class="hidden-sm hidden-lg">Женский</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+							</div>
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Новый пароль:
+									</label>
+									<input class="page-anketa__input input" type="password">
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Повтор нового пароля:
+									</label>
+									<input class="page-anketa__input input" type="password">
+								</div>
+								<div class="page-anketa__row--line row--checkbox">
+									<LABEL class="row--checkbox">
+										<div class="row--check">
+											<INPUT type="checkbox" checked="checked"></INPUT>
+										</div>
+										<div class="row--span">
+											<SPAN>Нажимая на кнопку, я соглашаюсь с
+												<a href="#">правилами акции</a> и даю
+												<a href="#">согласие</a> на использование персональных данных*</SPAN>
+										</div>
+									</LABEL>
+								</div>
+								<div class="page-anketa__row--line row--checkbox">
+									<LABEL class="row--checkbox">
+										<div class="row--check">
+											<INPUT type="checkbox" checked="checked"></INPUT>
+										</div>
+										<div class="row--span">
+											<SPAN>Даю согласие на получение новостей о дальнейших акциях от GrandBlu</SPAN>
+										</div>
+									</LABEL>
+								</div>
+							</div>
+						</div>
+						<div class="page-anketa__row">
+							<div class="page-anketa__item">
+								<div class="page-anketa__desc">* - поля, обязательные для заполнения
+								</div>
+							</div>
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--button text--right">
+									<div class="error">
+										<span>Неверное подтверждение пароля</span>
+									</div>
+									<input class="elem-btn elem-btn--small" type="submit" value="Завершить регистрацию">
+								</div>
+							</div>
+						</div>
+					</form>
+					
+                    <div class="text--center">
+                       <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+                   </div>
+				</div>
+			</div>
+			
+			<footer class="footer">
+				<div class="container">
+			        <div class="footer-copy">
+			            *Купи сыр ТМ «GRANDBLU» Creamy и/или ТМ «GRANDBLU» Intense со стикером, сохрани чек, зарегистрируй код со стикера на сайте GrandBlu.ru, получи гарантированный подарок – 50 рублей на телефон (за регистрацию первого кода);  участвуй в еженедельных розыгрышах призов: материалов с индивидуальным дизайном или сертификатов Ozon и Ticketland номиналом 1 000 рублей, и розыгрыше главного приза (на выбор): сертификата Ozon Travel номиналом 50 000 рублей / сертификата ИКЕЯ номиналом 50 000 рублей / миксера KitchenAid. Срок проведения Акции  с 02.04.2018 по 24.06.2018. Срок вручения призов с 09.04.18г. по 24.07.18г. Информация об Организаторе Акции, Правилах её проведения, количестве призов, месте и порядке их получения  на сайте GrandBlu.ru
+			        </div>
+			        <div class="footer-links">
+			            <a href="#" class="footer-link">Соглашение на обработку персональных данных</a>
+			            <a href="#" class="footer-link">Политика конфиденциальности</a>
+			        </div>
+			        <div class="footer-age">
+			            <img src="./img/18plus.svg" alt="">
+			        </div>
+			    </div>
+			</footer>
+		</div>
+	</body>
+</html>

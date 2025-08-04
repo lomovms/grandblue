@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		//= template/inc.head.html
+	</head>
+	<body>
+		<div class="page">
+			//= template/inc.header2.html
+            
+            <div class="container">
+                <div class="title">
+                    <div class="title-item">
+                        <h1 class="title page-registration__title">Авторизация и регистрация
+                        </h1>
+                        <div class="title__text">Для участия в акции необходимо войти на сайт</div>
+                        <div class="form-social__row hidden-sm hidden-lg">
+							<a class="button link--scroll" href="#button1">Вход</a>
+						</div>
+						<div class="form-social__row hidden-sm hidden-lg">
+							<a class="button link--scroll" href="#button2">Регистрация</a>
+						</div>
+                    </div>
+                    <div class="title-item hidden-xs">
+                        <div class="elem-action title--border">
+						    До конца акции осталось <span class="elem-action__num">30</span> дней
+					    </div>
+                    </div>
+                </div>
+                <div class="box-social box-social--inner hidden-sm hidden-lg">
+                    <div class="box-social__title title-aut">Вы можете авторизоваться через социальную сеть:
+                    </div>
+                    <div class="box-social__row">
+                        <div class="box-social__item">
+                            <div class="row--checkbox">
+                                <div class="row--check">
+                                    <INPUT type="checkbox" checked="checked"></INPUT>
+                                </div>
+                                <div class="row--span">
+                                    <SPAN>Нажимая на кнопку, я соглашаюсь с
+                                        <br>
+                                        <a href="#">правилами акции</a> и даю
+                                        <a href="#">согласие</a> на
+                                        <br> использование персональных данных</SPAN>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-social__item">
+                            <div class="social small">
+                                <div class="social__title">
+                                </div>
+                                    <div class="elem-social">
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/fb.svg" alt="">
+                                </a>
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/vk.svg" alt="">
+                                </a>
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/ok.svg" alt="">
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+                <div class="form-reg">
+                    <div class="form-reg__form">
+                        <div class="form-reg__row">
+                            <form class="form-reg__item focus" id="button1">
+                                <h2>Вход на сайт</h2>
+                                <p class="title__text title__text--small color-blue">Для зарегистрированных пользователей</p>
+                                <div class="form-reg__row--line">
+                                    <label class="label">Логин</label>
+                                    <div class="phone-row">
+                                        <span class="phone-row__num">+7</span>
+                                        <INPUT class="input--code input" value="916"></INPUT>
+                                        <INPUT class="input--number input" value="123 45 67"></INPUT>
+                                    </div>
+                                </div>
+                                <div class="form-reg__row--line">
+                                    <label class="label">Пароль</label>
+                                    <INPUT class="input" type="password"></INPUT>
+                                </div>
+                                <div class="form-reg__row--line row--forgot">
+                                    <A class="link__forgot" href="#">Забыли пароль?</A>
+                                </div>
+                                <div class="form-reg__row--line row--btn">
+                                    <div class="error">
+                                        <span>Неверный логин или пароль</span>
+                                    </div>
+                                    <input class="button button--small static" type="submit" value="Войти">
+                                </div>
+                            </form>
+                            <form class="form-reg__item" id="button2">
+                                <div class="form-reg__inner">
+                                    <h2>Получить пароль</h2>
+                                    <p class="title__text title__text--small color-blue">Зарегистрировать или
+                                        <span class="hidden-sm hidden-lg">
+                                            <br>
+                                        </span>восстановить забытый пароль</p>
+                                    <div class="form-reg__row--line">
+                                        <label class="label">Логин</label>
+                                        <div class="phone-row">
+                                            <span class="phone-row__num">+7</span>
+                                            <INPUT class="input--code input" value="916"></INPUT>
+                                            <INPUT class="input--number input" value="123 45 67"></INPUT>
+                                        </div>
+                                    </div>
+                                    <div class="form-reg__row--line">
+                                        <div class="form-reg__desc">Используйте номер своего мобильного
+                                            <br> телефона в качестве логина
+                                        </div>
+                                    </div>
+                                    <div class="form-reg__row--line">
+                                        <div class="row--checkbox">
+                                            <div class="row--check">
+                                                <INPUT type="checkbox" checked="checked"></INPUT>
+                                            </div>
+                                            <div class="row--span">
+                                                <SPAN>Нажимая на кнопку, я соглашаюсь
+                                                    <br> с
+                                                    <a href="#">правилами акции</a> и даю
+                                                    <a href="#">согласие</a>
+                                                    <br> на использование персональных данных</SPAN>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-reg__row--line row--btn">
+                                        <div class="error">
+                                            <span>Запросить пароль повторно можно не ранее, чем через 3 минуты</span>
+                                        </div>
+                                        <input class="button button--small static" type="submit" value="Получить пароль" disabled="disabled">
+                                    </div>
+                                </div>
+                                <div class="form-reg__thank">
+                                    <a class="form-reg__thank--close close close--blue" href="javascript:void(0)"></a>
+                                    <h2>Поздравляем!</h2>
+                                    <div class="form-reg__border">
+                                        <div class="form-reg__thank--text">Пароль был отправлен на Ваш номер
+                                            <br> мобильного телефона
+                                            <span class="color--green">+7-903-123-45-67 </span>
+                                        </div>
+                                        <div class="form-reg__thank--text color--yellow">
+                                            Проверьте СМС и вводите данные слева
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-reg__thank--info color--blue">Если вы ввели неправильный номер,
+                                        <br>
+                                        <a class="form-reg__thank--link" href="#">запросите пароль еще раз</a>
+                                    </div>
+                                </div>
+                            </form>
+                            <a href="" class="form-reg__arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-social box-social--inner hidden-xs">
+                    <div class="box-social__title title-aut">Вы можете авторизоваться через социальную сеть:
+                    </div>
+                    <div class="box-social__row">
+                        <div class="box-social__item">
+                            <div class="row--checkbox">
+                                <div class="row--check">
+                                    <INPUT type="checkbox" checked="checked"></INPUT>
+                                </div>
+                                <div class="row--span">
+                                    <SPAN>Нажимая на кнопку, я соглашаюсь с
+                                        <br>
+                                        <a href="#">правилами акции</a> и даю
+                                        <a href="#">согласие</a> на
+                                        <br> использование персональных данных</SPAN>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-social__item">
+                            <div class="social small">
+                                <div class="social__title">
+                                </div>
+                                    <div class="elem-social">
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/fb.svg" alt="">
+                                </a>
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/vk.svg" alt="">
+                                </a>
+                                <a href="#" class="elem-social__link social--small">
+                                    <img src="./img/ok.svg" alt="">
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+               <div class="text--center">
+                   <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+               </div>
+            </div>
+
+            //= template/inc.footer.html
+		</div>
+	</body>
+</html>

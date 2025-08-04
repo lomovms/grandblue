@@ -1,0 +1,104 @@
+.page-winners {
+    &__wrap {
+        background: #002042;
+        width: 100%;
+        margin: 37px auto 66px;
+        padding: 1px 46px;
+
+        @media (max-width: 1280px) {
+            margin: 20px auto 52px;
+            padding: 1px 37px;
+        }
+
+        @media screen and (max-width: 980px) {
+            margin: 65px -21px -2px;
+            padding: 1px 21px;
+            width: auto;
+        }
+    }
+
+    &__inner {
+        background: #712388;
+        margin: -56px auto 46px;
+        max-width: 100%;
+        height: 534px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 13px;
+
+        @media (max-width: 1280px) {
+            margin: -46px auto 36px;
+            height: 427px;
+            padding-top: 6px;
+        }
+
+        @media screen and (max-width: 980px) {
+            height: 287px;
+            margin: -46px auto 27px;
+            padding-top: 3px;
+        }
+    }
+
+    &__info {
+        border: 1px dashed #a553bd;
+        border-radius: 52px;
+        color: #ffffff;
+        font-size: 21px;
+        line-height: 1.5;
+        text-align: center;
+        padding: 18px 91px 15px;
+        margin: 0 auto;
+        max-width: 90%;
+
+        @media (max-width: 1280px) {
+            font-size: 17px;
+            padding: 14px 69px 12px;
+        }
+
+        @media screen and (max-width: 980px) {
+            font-size: 16px;
+            border-radius: 15px;
+            line-height: 1.2;
+            max-width: 92%;
+            padding: 22px 25px 18px;
+        }
+    }
+
+    &__date {
+        font-size: 27px;
+        display: block;
+
+        @media (max-width: 1280px) {
+            font-size: 22px;
+        }
+
+        @media screen and (max-width: 980px) {
+            font-size: 21px;
+            margin-top: 10px;
+        }
+    }
+    
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 510px;
+        margin-bottom: 105px;
+        
+        &--item {
+            box-sizing: border-box;
+        }
+    }
+    
+    &__top {
+        padding: 25px 30px;
+        background: #712388;
+        
+        &--inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}

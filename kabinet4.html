@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="robots" content="noindex,nofollow" />
+		<title>Название сайта</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<script src="libs/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="libs/slick.min.js"></script>
+		<script src="libs/jquery.formstyler.js"></script>
+		<script src="libs/jquery.maskedinput.js"></script>
+		<script src="libs/jquery.ui.autocomplete.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/test.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<header class="header header--inner">
+				<nav class="menu">
+			        <div class="container">
+			            <button class="menu__mobile">
+			                <span>menu</span>
+			            </button>
+			            <div class="menu-logo">
+			                <img src="./img/grand-logo.svg" alt="">
+			            </div>
+			            <div class="elem-action hidden-sm hidden-lg">
+			                До конца акции <span class="elem-action__num">30</span> дней
+			            </div>
+			            <ul class="menu-list">
+			                <li class="menu-item hidden-sm hidden-lg"><a href="#" class="menu-btn ">Выход</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">О продукте</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Правила и призы</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Победители</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Вопрос-ответ</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link color--blue">Личный кабинет</a></li>
+			                <li class="menu-item hidden-xs"><a href="#" class="menu-btn ">Выход</a></li>
+			            </ul>
+			        </div>
+			    </nav>
+			</header>
+            
+        <div class="page-kabinet">
+			 <div class="container">
+				<div class="title">
+					<div class="title-item">
+						<h1 class="title page-registration__title">Личный кабинет</h1>
+						<div class="title__text hidden-xs"></div>
+					</div>
+					<div class="title-item hidden-xs">
+						<div class="elem-action title--border">
+							До конца акции осталось <span class="elem-action__num">30</span> дней
+						</div>
+					</div>
+				</div>
+                
+                <div class="box-kabinet">
+                    <div class="box-kabinet__row">
+                        <div class="box-kabinet__item">
+                           <div class="box-kabinet__name">
+                                <h2>Константин</h2>
+                                <p>г. Москва</p>
+                           </div>
+                           <div class="box-kabinet__edit">
+                                <a href="#" class="color--blue">изменить личные данные</a>
+                           </div>
+                        </div>
+                        <div class="box-kabinet__code">
+                            <h2>Зарегистрировано кодов:</h2>
+                            <p>3</p>
+                        </div>
+                    </div>
+                </div>
+                           
+                <div class="text--center page-kabinet__alarm">
+                    <h3 class="page-kabinet__red">Внимание!</h3>
+					<p><span class="page-kabinet__red">3</span> из <span class="color--blue">6</span> зарегистрированных вами кодов не подтверждены. </p>
+					<p> Для того, чтобы они приняли участие в розыгрыше, необходимо <a href="#" class="color--blue">загрузить</a> фото чека на покупку.</p>    
+                </div>
+                           
+                <div class="text--center page-kabinet__text">
+                    Призы, за которые Вы боретесь
+                </div>
+                            
+				<div class="box-prizefight">
+				    <div class="box-prizefight__item">
+				        <div class="box-prizefight__head">Гарантированный</div>
+				        <div class="box-prizefight__prize box-prizefight__prize1">
+				            <div class="box-prizefight__row">
+                               <span class="elem-buble__ico">
+                                    <img src="./img/phone-money.svg" alt="">
+                                </span>
+                                <span class="elem-buble__ico">
+                                    <img src="./img/money-phone.svg" alt="">
+                                </span>
+				            </div>
+                            <div class="box-prizefight__text text--center color--blue">
+                                за первый код    
+                            </div>
+				        </div>
+				        <div class="text--center">
+				            <div class="box-prizefight__info box-prizefight__blue">Получен</div>
+				        </div>    
+				    </div>
+				    <div class="box-prizefight__item">
+				        <div class="box-prizefight__head">Еженедельный</div>
+				        <div class="box-prizefight__prize box-prizefight__prize2">
+                            <div class="page-prize-gen__res">
+                                        <div class="slider--prize__img">
+                                             <img class="bg-res" src="/img/content/prize/card.png" alt="hudi">
+                                         </div>
+                                    </div>
+                            <div class="box-prizefight__text text--center">
+                                Худи с принтом    
+                            </div>
+				        </div>
+				        <div class="text--center">
+				            <div class="box-prizefight__info box-prizefight__yellow">Вы выиграли, поздравляем!</div>
+				        </div>    
+				    </div>
+				    <div class="box-prizefight__item">
+				        <div class="box-prizefight__head">Главный</div>
+				        <div class="box-prizefight__prize box-prizefight__prize3">
+				            <div class="box-prizefight__img">
+				                <img src="./img/content/img15.png" alt="">
+                            </div>
+                            <div class="box-prizefight__text text--center">
+                                Миксер <br>KitchenAid    
+                            </div>
+				        </div>
+				        <div class="text--center">
+				            <div class="box-prizefight__info box-prizefight__no">Удачи в следующий раз</div>
+				        </div>    
+				    </div>	
+				</div>
+				
+				<div class="text--center elem-btn--dashed page-kabinet__btn">Сроки отправки призов смотрите в <a href="">Правилах Акции</a></div>
+                
+                <div class="box-recept">
+					<div class="box-recept__title box-recept__title--alt">Рецепт недели</div>
+					<div class="box-recept__header--small">Если поделиться рецетом в социальных сетях, можно получить <span class="hidden-xs"><br></span> до 3-х дополнительных шансов выиграть главный приз.</div>
+					<div class="text--center">
+						<div class="box-prizefight__info box-prizefight__info--big">Поздравляем! Вы уже получили <span class="color--orange">1 шанс.</span></div>
+					</div>
+
+					<div class="box-recept__img">
+						<img src="./img/content/img18.jpg" alt="" class="hidden-xs">
+						<img src="./img/content/img18-mob.jpg" alt="" class="hidden-sm hidden-lg">
+
+						<div class="box-recept__inner">
+							<div class="box-recept__bg">
+								<div class="box-recept__header">Брускетта с голубым сыром и авокадо</div>
+								<h3>Ингредиенты</h3>
+								<ul>
+									<li>Белый хлеб или багет;</li>
+									<li>Голубой сыр GrandBlu;</li>
+									<li>Зелёный лук;</li>
+									<li>Кунжут;</li>
+									<li>Авокадо;</li>
+									<li>Кедровые орешки.</li>
+								</ul>
+								<h3>Приготовление</h3>
+								<ol>
+									<li>Ломтики хлеба подсушите на сковороде с двух сторон.</li>
+									<li>Раскрошите на них голубой сыр GrandBlu.</li>
+									<li>Посыпьте мелко нарезанным зелёным луком.</li>
+									<li>Сверху положите несколько тонких ломтиков авокадо.</li>
+									<li>Украсьте россыпью кедровых орешков и кунжута.</li>
+								</ol>
+	
+								<div class="box-recept__desc">
+									Миксуй с GrandBlu!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+               
+               <div class="box-social box-social--alt">
+				    <div class="box-social__title">Поделиться ссылкой <br> на рецепт:</div>
+					<div class="box-social__item">
+						<div class="elem-social">
+							<a href="#" class="elem-social__link">
+								<img src="./img/fb.svg" alt="">
+							</a>
+							<a href="#" class="elem-social__link">
+								<img src="./img/vk.svg" alt="">
+							</a>
+							<a href="#" class="elem-social__link">
+								<img src="./img/ok.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+                
+				<div class="box-rules">
+                    <div class="box-rules__block box-rules__block--alt">
+						<table>
+							<colgroup>
+								<col class="col3" width="230">
+								<col class="col4" auto="auto">
+								<col class="col5" width="274">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Код</th>
+									<th>Продукт</th>
+									<th class="color--white">Статус / Приз</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td data-name="Код" class="page-kabinet__red">IGHDYNGD</td>
+									<td data-name="Продукт">GrandBlu Intense</td>
+									<td data-name="Статус / Приз" class="color--blue"><a href="#">необходима загрузка чека на покупку</a></td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="page-kabinet__red">C1234YUIP</td>
+									<td data-name="Продукт">GrandBlu Creamy</td>
+									<td data-name="Статус / Приз" class="color--blue"><a href="#">необходима загрузка чека на покупку</a></td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="">CHJKD233</td>
+									<td data-name="Продукт">GrandBlu Intense</td>
+									<td data-name="Статус / Приз" class="">участвует в розыгрыше</td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="">CHJKDGBH</td>
+									<td data-name="Продукт">GrandBlu Intense</td>
+									<td data-name="Статус / Приз" class="">участвует в розыгрыше</td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="page-kabinet__red">INHJKKKU</td>
+									<td data-name="Продукт">GrandBlu Creamy</td>
+									<td data-name="Статус / Приз" class="page-kabinet__red">чек отклонён, причина: "чек не читается"</td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="">INHGFTTG</td>
+									<td data-name="Продукт">GrandBlu Intense</td>
+									<td data-name="Статус / Приз" class="color--blue">проверка чека №13434</td>
+								</tr>
+								<tr>
+									<td data-name="Код" class="">CYHHJJHH</td>
+									<td data-name="Продукт">GrandBlu Creamy</td>
+									<td data-name="Статус / Приз" class="page-kabinet__green">Приз: "Чехол на чемодан"!</td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<div class="text--center page-kabinet__line">
+					<a href="#" class="elem-btn elem-btn--large">Зарегистрировать еще один код</a>
+					<a href="#" class="elem-btn elem-btn--large">Загрузить чек</a>
+				</div>
+				
+				<div class="text--center">
+                       <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+                </div>
+
+			</div>
+        </div>
+			<footer class="footer">
+				<div class="container">
+			        <div class="footer-copy">
+			            *Купи сыр ТМ «GRANDBLU» Creamy и/или ТМ «GRANDBLU» Intense со стикером, сохрани чек, зарегистрируй код со стикера на сайте GrandBlu.ru, получи гарантированный подарок – 50 рублей на телефон (за регистрацию первого кода);  участвуй в еженедельных розыгрышах призов: материалов с индивидуальным дизайном или сертификатов Ozon и Ticketland номиналом 1 000 рублей, и розыгрыше главного приза (на выбор): сертификата Ozon Travel номиналом 50 000 рублей / сертификата ИКЕЯ номиналом 50 000 рублей / миксера KitchenAid. Срок проведения Акции  с 02.04.2018 по 24.06.2018. Срок вручения призов с 09.04.18г. по 24.07.18г. Информация об Организаторе Акции, Правилах её проведения, количестве призов, месте и порядке их получения  на сайте GrandBlu.ru
+			        </div>
+			        <div class="footer-links">
+			            <a href="#" class="footer-link">Соглашение на обработку персональных данных</a>
+			            <a href="#" class="footer-link">Политика конфиденциальности</a>
+			        </div>
+			        <div class="footer-age">
+			            <img src="./img/18plus.svg" alt="">
+			        </div>
+			    </div>
+			</footer>
+		</div>
+	</body>
+</html>

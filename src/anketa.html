@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		//= template/inc.head.html
+	</head>
+	<body>
+		<div class="page">
+			//= template/inc.header2.html
+            
+			
+			<div class="page-anketa">
+				<div class="container">
+					
+					<div class="title">
+                        <div class="title-item">
+                            <h1 class="title page-registration__title page-anketa__title">Анкета
+                            </h1>
+                            <div class="title__text">Осталось совсем чуть-чуть, заполните данные ниже</div>
+                        </div>
+                        <div class="title-item hidden-xs">
+                            <div class="elem-action title--border">
+                                До конца акции осталось <span class="elem-action__num">30</span> дней
+                            </div>
+                        </div>
+                    </div>
+					
+					<form class="page-anketa__form" id="form__anketa">
+						<div class="page-anketa__row">
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Имя*
+									</label>
+									<input class="page-anketa__input input" type="text">
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Город проживания*
+									</label>
+									<input class="page-anketa__input input" id="input__adress__block" type="text">
+									<div class="search__wrapper">
+										<div class="search__res"></div>
+									</div>
+								</div>
+								<div class="page-anketa__row">
+									<label class="page-anketa__label label">
+									</label>
+									<div class="page-anketa__input--desc">
+										Введите несколько букв из название города или населенного пункта и выберите его в появившемся списке
+									</div>
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">E-mail*
+									</label>
+									<input class="page-anketa__input input" type="text">
+								</div>
+								<div class="page-anketa__row--line">
+									<div class="page-anketa__row">
+                                        <label class="page-anketa__label">Дата рождения*</label>
+                                        <div class="page-anketa__wrap">
+                                            <div class="page-anketa__item col">
+                                               <input class="page-anketa__input input input--date" type="text" placeholder="дд.мм.гггг">
+                                            </div>
+                                            <div class="page-anketa__item col">
+                                                <label class="page-anketa__label label min">Пол*</label>
+                                                <label class="page-anketa__radio">
+                                                    <input name="radio" type="radio" checked="checked">
+                                                    <span class="page-anketa__radio--span radio--span">
+                                                        <span class="hidden-xs">М</span>
+                                                        <span class="hidden-sm hidden-lg">Мужской</span>
+                                                    </span>
+                                                </label>
+                                                <label class="page-anketa__radio">
+                                                    <input name="radio" type="radio">
+                                                    <span class="page-anketa__radio--span radio--span">
+                                                        <span class="hidden-xs">Ж</span>
+                                                        <span class="hidden-sm hidden-lg">Женский</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+							</div>
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Новый пароль:
+									</label>
+									<input class="page-anketa__input input" type="password">
+								</div>
+								<div class="page-anketa__row--line">
+									<label class="page-anketa__label label">Повтор нового пароля:
+									</label>
+									<input class="page-anketa__input input" type="password">
+								</div>
+								<div class="page-anketa__row--line row--checkbox">
+									<LABEL class="row--checkbox">
+										<div class="row--check">
+											<INPUT type="checkbox" checked="checked"></INPUT>
+										</div>
+										<div class="row--span">
+											<SPAN>Нажимая на кнопку, я соглашаюсь с
+												<a href="#">правилами акции</a> и даю
+												<a href="#">согласие</a> на использование персональных данных*</SPAN>
+										</div>
+									</LABEL>
+								</div>
+								<div class="page-anketa__row--line row--checkbox">
+									<LABEL class="row--checkbox">
+										<div class="row--check">
+											<INPUT type="checkbox" checked="checked"></INPUT>
+										</div>
+										<div class="row--span">
+											<SPAN>Даю согласие на получение новостей о дальнейших акциях от GrandBlu</SPAN>
+										</div>
+									</LABEL>
+								</div>
+							</div>
+						</div>
+						<div class="page-anketa__row">
+							<div class="page-anketa__item">
+								<div class="page-anketa__desc">* - поля, обязательные для заполнения
+								</div>
+							</div>
+							<div class="page-anketa__item">
+								<div class="page-anketa__row--button text--right">
+									<div class="error">
+										<span>Неверное подтверждение пароля</span>
+									</div>
+									<input class="elem-btn elem-btn--small" type="submit" value="Завершить регистрацию">
+								</div>
+							</div>
+						</div>
+					</form>
+					
+                    <div class="text--center">
+                       <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+                   </div>
+				</div>
+			</div>
+			
+			//= template/inc.footer.html
+		</div>
+	</body>
+</html>

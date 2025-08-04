@@ -1,0 +1,109 @@
+.elem-buble {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3d11a;
+    border-radius: 80px;
+    position: relative;
+    max-width: 650px;
+    padding: 38px 73px 44px;
+    margin-bottom: 109px;
+
+    @media (max-width: 1280px) {
+        border-radius: 63px;
+        max-width: 520px;
+        padding: 31px 59px 36px;
+        margin-bottom: 88px;
+    }
+
+    @media screen and (max-width: 980px) {
+        margin-top: 66px;
+        padding: 16px 15px 21px;
+        max-width: 280px;
+        margin-bottom: 53px;
+    }
+
+    &::after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 30px 0 0;
+        border-color: #c2d11a transparent transparent transparent;
+        position: absolute;
+        left: 42px;
+        bottom: -14px;
+
+        @media (max-width: 1280px) {
+            border-width: 25px 25px 0 0;
+            left: 34px;
+            bottom: -12px;
+        }
+
+        @media screen and (max-width: 980px) {
+            border-width: 15px 15px 0 0;
+            left: 21px;
+            bottom: -7px;
+        }
+    }
+
+    &__ico {
+
+        @media (max-width: 1280px) {
+            height: 59px;
+        }
+
+        @media screen and (max-width: 980px) {
+            height: 37px;
+        }
+
+        & + & {
+            margin-left: 22px;
+
+            @media (max-width: 1280px) {
+                margin-left: 19px;
+            }
+
+            @media screen and (max-width: 980px) {
+                margin-left: 10px;
+            }
+        }
+
+        & img {
+
+            @media (max-width: 1280px) {
+                max-height: 100%;
+            }
+
+            @media screen and (max-width: 980px) {
+                max-height: 100%;
+            }
+        }
+    }
+
+    &__text {
+        color: #0089b0;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: left;
+        margin-left: 20px;
+        position: relative;
+        top: 4px;
+
+        @media (max-width: 1280px) {
+            font-size: 26px;
+            line-height: 30px;
+            margin-left: 17px;
+        }
+
+        @media screen and (max-width: 980px) {
+            font-size: 16px;
+            line-height: 21px;
+            margin-left: 10px;
+        }
+    }
+
+    &--inner {
+        margin-bottom: 0;
+    }
+}

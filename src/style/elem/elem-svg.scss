@@ -1,0 +1,43 @@
+.elem-svg {
+    display: inline-block;
+
+    &--green-light {
+        fill: #c8d419;
+    }
+
+    &--blue {
+        fill: #33bcbf;
+        fill-rule: evenodd;
+    }
+
+    &--blue2 {
+        fill: #008adb;
+        fill-rule: evenodd;
+    }
+
+    &--green {
+        fill: #00a4a6;
+        fill-rule: evenodd;
+    }
+
+    &--white {
+        fill: #fff;
+        fill-rule: evenodd;
+    }
+
+    &--line {
+        stroke-width: 1px;
+
+        .elem-svg--green {
+            stroke: #00a4a6;
+        }
+
+        .elem-svg--blue2 {
+            stroke: #008adb;
+        }
+    }
+    
+    &--opacity {
+        opacity: 0.1
+    }
+}

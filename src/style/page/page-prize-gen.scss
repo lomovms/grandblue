@@ -1,0 +1,996 @@
+.page-prize-gen {
+    text-align: center;
+    
+    &__wrap {
+        background: #712388;
+        margin: 10px auto 83px;
+        padding: 31px 70px 0px;
+
+        @media (max-width: 1280px) {
+            margin: -12px auto 72px;
+            padding: 26px 30px 0;
+        }
+
+        @media screen and (max-width: 980px) {
+            margin: -2px -21px -4px;
+            padding: 4px 21px 10px;
+        }
+        
+        & .title__text {
+            color: #48cfcb;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        & h2 {
+            font-size: 30px;
+            line-height: 32px;
+            margin-bottom: 10px;
+
+            @media (max-width: 1280px) {
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+    }
+    
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+
+        @media (max-width: 1280px) {
+            margin-bottom: 47px;
+        }
+
+        @media screen and (max-width: 980px) {
+            margin-bottom: 15px;
+        }
+    }
+    
+    &__reset {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 45px;
+
+        @media (max-width: 1280px) {
+            margin-bottom: 36px;
+        }
+
+        @media screen and (max-width: 980px) {
+            margin: 0;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+    }
+    
+    &__menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-basis: 264px;
+        text-align: center;
+        margin-left: 28px;
+        padding-bottom: 18px;
+
+        @media (max-width: 1280px) {
+            flex-basis: 249px;
+            margin-left: -7px;
+            padding-left: 9px;
+        }
+        
+        & .elem-btn {
+            width: 100%;
+            max-width: 220px;
+            margin: 23px auto 0;
+
+            @media (max-width: 1280px) {
+                max-width: 176px;
+                margin-top: 19px;
+            }
+
+            @media screen and (max-width: 980px) {
+                width: 156px;
+                font-size: 13px;
+                padding: 13px 10px;
+            }
+        }
+    }
+
+    & .title__text--small {
+        margin-bottom: -6px;
+
+        @media (max-width: 1280px) {
+            margin-bottom: 1px;
+        }
+
+        @media screen and (max-width: 980px) {
+            margin-bottom: 12px;
+        }
+    }
+    
+    &__res {
+        position: relative;
+        flex-basis: 296px;
+        text-align: center;
+
+        @media (max-width: 1280px) {
+            flex-basis: 245px;
+            padding-left: 19px;
+            z-index: 1;
+        }
+
+        @media screen and (max-width: 980px) {
+            flex-basis: 87px;
+            padding: 0;
+            z-index: inherit;
+        }
+
+        & .slider--prize__img {
+            margin-bottom: 8px;
+
+            @media (max-width: 1280px) {
+                height: 311px;
+                margin-bottom: 12px;
+                padding-top: 41px;
+            }
+
+            @media screen and (max-width: 980px) {
+                height: 119px;
+                padding: 0;
+                margin: 0;
+            }
+
+            &--alt {
+                @media (max-width: 1280px) {
+                    //padding-top: 0;
+                }
+            }
+            
+            &.gen3 {
+                display: inline-block;
+                position: relative;
+                width: 296px;
+                text-align: center;
+                
+                @media (max-width: 1280px) {
+                     width: 245px;   
+                }
+                
+                @media screen and (max-width: 980px) {
+                    width: 158px;
+                    height: auto;
+                }
+                
+                & .bg-res.case {
+                    top: -25px;
+                    margin-left: 0;
+                    
+                    @media (max-width: 1280px) {
+                         top: -54px;   
+                    }
+                    
+                    @media screen and (max-width: 980px) {
+                        top: 0;
+                    }
+                }
+                
+                & .img-res-alt {
+                    top: 100px;
+                    
+                    @media (max-width: 1280px) {
+                        top: 117px;
+                        left: 76px;
+                        transform: scale(0.8);
+                    }
+                    
+                    @media screen and (max-width: 980px) {
+                            top: 51px;
+                            left: 44px;
+                            transform: scale(0.7);
+                    }
+                    
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+            
+            &.gen4 {
+                display: inline-block;
+                position: relative;
+                width: 296px;
+                text-align: center;
+                
+                @media (max-width: 1280px) {
+                     width: 245px;   
+                }
+                
+                @media screen and (max-width: 980px) {
+                    width: 158px;
+                    height: auto;
+                }
+                
+                & .bg-res.case {
+                    top: -25px;
+                    margin-left: 0;
+                    
+                    @media (max-width: 1280px) {
+                         top: -54px;   
+                    }
+                    
+                    @media screen and (max-width: 980px) {
+                        top: 0;
+                    }
+                }
+                
+                & .img-res--alt {
+                    top: 71px;
+                    
+                    @media (max-width: 1280px) {
+                         top: 82px; 
+                        left: 40px;
+                        transform: scale(0.8);
+                    }
+                    
+                    @media screen and (max-width: 980px) {
+                            top: 24px;
+                            left: 6px;
+                            transform: scale(0.5);
+                    }
+                    
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+        
+        & .slider--prize__img .bg-res {
+            width: 279px;
+
+            @media (max-width: 1280px) {
+                width: auto;
+                max-width: 96%;
+                max-height: 100%;
+            }
+
+            @media screen and (max-width: 980px) {
+                width: 140px;
+                max-width: none;
+                max-height: none;
+                margin: 10px -44px 0 -9px;
+            }
+
+            &.case {
+                width: 215px;
+                height: auto;
+                top: -10px;
+                position: relative;
+                left: 4px;
+
+                @media (max-width: 1280px) {
+                    width: auto;
+                    max-height: none;
+                }
+
+                @media screen and (max-width: 980px) {
+                    width: 110px;
+                    top: 0;
+                    left: -8px;
+                }
+                
+                &.case2 {
+                    top: -50px;
+                }
+            }
+        }
+    }
+    
+    &__generator {  
+    
+        background: #611976;   
+        border: 1px dashed #b573c8;
+        border-radius: 20px;
+        width: 358px;
+        padding: 71px 18px 47px;
+        margin-top: 11px;
+        position: relative;
+
+        &:before {
+            @media screen and (max-width: 980px) {
+                background: url(../img/arrow-constructor-1-1-mob.png) no-repeat 0 0;
+                background-size: contain;
+                content: '';
+                height: 13px;
+                width: 45px;
+                position: absolute;
+                left: -40px;
+                top: 103px;
+            }
+        }
+        
+        &:after {
+            background: url(../img/arrow-constructor-2-1.png) no-repeat 0 0;
+            background-size: contain;
+            content: '';
+            height: 129px;
+            width: 61px;
+            position: absolute;
+            right: -75px;
+            top: 249px;
+            
+            @media screen and (max-width: 980px) {
+                background: url(../img/arrow-constructor-2-1-mob.png) no-repeat 0 0;
+                background-size: contain;
+                content: '';
+                height: 60px;
+                width: 13px;
+                position: absolute;
+                right: 17px;
+                top: 175px;;
+            }
+        }
+
+        @media (max-width: 1280px) {
+            width: 360px;
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 192px;
+            padding: 34px 4px 25px;
+            border-radius: 10px;
+        }
+    
+        & img{
+            max-width: 100%;
+            max-height: 100%; 
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        &--alt {
+            padding: 15px 57px 24px;
+
+            @media screen and (max-width: 980px) {
+                padding: 4px 22px 8px;
+            }
+            
+            &:before {
+                @media screen and (max-width: 980px) {
+                    left: -15px;
+                    top: 132px  
+                }    
+            }
+            
+            &:after {
+                @media screen and (max-width: 980px) {
+                  
+                }
+            }
+
+            .item1 {
+                height: 119px;
+                top: 8px;
+                left: 10px;
+                z-index: 3;
+
+                @media screen and (max-width: 980px) {
+                    height: 66px;
+                    left: 12px;
+                }
+            }
+            
+            .item2 {
+                height: 111px;
+                top: 18px;
+                left: -20px;
+                z-index: 4;
+
+                @media screen and (max-width: 980px) {
+                    height: 61px;
+                    top: 15px;
+                    left: -21px;
+                }
+            }
+            
+            .item3 {
+                height: 85px;
+                top: 0;
+                margin-top: 3px;
+                left: 24px;
+                z-index: 1;
+
+                @media screen and (max-width: 980px) {
+                    height: 48px;
+                    top: 0;
+                    margin-top: 4px;
+                    left: 17px;
+                }
+            }
+            
+            .item4 {
+                height: 146px;
+                top: 0px;
+                margin-top: -42px;
+                left: 1px;
+                z-index: 2;
+
+                @media screen and (max-width: 980px) {
+                    height: 80px;
+                    margin-top: -21px;
+                    left: -9px;
+                }
+            }
+            
+            .item5 {
+                height: 117px;
+                top: 0;
+                left: 15px;
+                z-index: 6;
+                margin-right: -7px;
+                margin-left: -2px;
+                margin-top: -21px;
+
+                @media (max-width: 1280px) {
+                    left: 17px;
+                }
+
+                @media screen and (max-width: 980px) {
+                    height: 65px;
+                    left: 13px;
+                    margin-right: 0;
+                    margin-left: 0;
+                    margin-top: -12px;
+                }
+            }
+            
+            .item6 {
+                height: 76px;
+                top: -5px;
+                left: -36px;
+                z-index: 1;
+
+                @media (max-width: 1280px) {
+                    left: -38px;
+                }
+
+                @media screen and (max-width: 980px) {
+                    height: 42px;
+                    top: -4px;
+                    left: -29px;
+                }
+            }
+
+            & .generator-row {
+                flex-wrap: wrap;
+                position: relative;
+                z-index: 3;
+    
+                &:nth-child(2) {
+                    margin-top: -24px;
+                    z-index: 2;
+                }
+    
+                &:nth-child(3) {
+                    margin-top: -39px;
+                }
+            }
+        }
+    
+    }
+    
+    &__item {
+        position: relative;
+        
+        & img {
+            max-width: none;
+        }
+    }
+}
+
+.generator-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-res {
+    position: absolute;
+    top: 106px;
+    left: 80px;
+    
+    &-alt {
+        top: 104px;
+        left: 48.5%;
+        transform: translate(-50%, 0);
+        
+        &:after {
+            display: none;
+        }
+    }
+    
+    & img {
+        margin: 0 !important;
+    }
+
+    @media (max-width: 1280px) {
+        top: 113px;
+        left: 71px;
+        transform: scale(0.8);
+    }
+
+    @media screen and (max-width: 980px) {
+        top: 23px;
+        left: 8px;
+    }
+
+    &:after {
+        background: url(../img/arrow-constructor-1-1.png) no-repeat 0 0;
+        background-size: contain;
+        content: '';
+        position: absolute;
+        right: -164px;
+        top: 96px;
+        height: 50px;
+        width: 157px;
+
+        @media (max-width: 1280px) {
+            right: -129px;
+            top: 81px;
+            transform: scale(1.2);
+        }
+
+        @media screen and (max-width: 980px) {
+            display: none;
+        }
+    }
+}
+
+.page-prize-gen__generator .page-prize-gen__item {
+
+    border: 1px dashed transparent;
+    
+    &:hover {
+        transform: scale(1.05);
+        z-index: 99;
+        cursor: pointer;
+    }
+
+       &.active  {
+        animation: anim6 1s infinite;
+        border-color: #fff;
+        z-index: 99; 
+    }  
+}
+
+
+@keyframes anim6 {
+    0% {
+        border-color: #fff;
+    }
+    50% {
+        border-color: transparent;  
+    }
+    100% {
+        border-color: #fff;
+    }
+}
+
+
+.img-res img {
+    width: auto;
+    max-height: 100%;
+}
+
+
+.item1 {
+    height: 84px;
+    top: 8px;
+    left: 10px;
+    z-index: 3;
+
+    @media screen and (max-width: 980px) {
+        height: 46px;
+    }
+}
+
+.item2 {
+    height: 106px;
+    top: 11px;
+    left: -11px;
+    z-index: 4;
+
+    @media screen and (max-width: 980px) {
+        height: 59px;
+        top: 9px;
+        left: -5px;
+    }
+}
+
+.item3 {
+    height: 99px;
+    top: 1px;
+    left: -37px;
+    z-index: 5;
+
+    @media screen and (max-width: 980px) {
+        height: 55px;
+        top: 3px;
+        left: -24px;
+    }
+}
+
+.item4 {
+    height: 115px;
+    top: -20px;
+    left: 4px;
+    z-index: 3;
+
+    @media screen and (max-width: 980px) {
+        height: 64px;
+        top: -12px;
+    }
+}
+
+.item5 {
+    height: 79px;
+    top: 10px;
+    left: 2px;
+    z-index: 1;
+    margin-right: -7px;
+    margin-left: -2px;
+
+    @media screen and (max-width: 980px) {
+        height: 45px;
+        top: 6px;
+        left: -1px;
+    }
+}
+
+.item6 {
+    height: 134px;
+    top: -24px;
+    left: 4px;
+    z-index: 2;
+
+    @media screen and (max-width: 980px) {
+        height: 72px;
+        top: -12px;
+        left: -5px;
+    }
+}
+
+.img-res {
+    & .item1 {
+        height: 24px;
+        top: 1px;
+        left: 6px;
+
+        @media screen and (max-width: 980px) {
+
+        }
+    }
+    
+    & .item2 {
+        height: 32px;
+        top: 2px;
+        left: 0px;
+
+        @media screen and (max-width: 980px) {
+
+        }
+    }
+    
+    & .item3 {
+        height: 30px;
+        top: -2px;
+        left: -2px;
+
+        @media screen and (max-width: 980px) {
+            top: -1px;
+            left: -12px;
+        }
+    }
+    
+    & .item4 {
+        height: 35px;
+        top: -8px;
+        left: 4px;
+
+        @media screen and (max-width: 980px) {
+            top: -15px;
+            left: 7px;
+        }
+    }
+    
+    & .item5 {
+        height: 25px;
+        top: 0px;
+        left: 4px;
+
+        @media screen and (max-width: 980px) {
+            top: -10px;
+            left: 0px;
+        }
+    }
+    
+    & .item6 {
+        height: 39px;
+        top: -7px;
+        left: 9px;
+
+        @media screen and (max-width: 980px) {
+            top: -14px;
+            left: -3px;
+        }
+    }
+
+    &--alt {
+        width: 50%;
+        top: 60px;
+        left: 64px;
+
+        @media (max-width: 1280px) {
+            width: 62%;
+            top: 83px;
+            left: 49px;
+//            transform: scale(0.6);
+        }
+
+        @media screen and (max-width: 980px) {
+            width: 163px;
+            top: -18px;
+            left: -32px;
+            transform: scale(0.5);
+        }
+
+        &.gen-img {
+            top: 59px;
+            left: 79px;
+            transform: scale(0.8);
+
+            @media (max-width: 1280px) {
+                top: 87px;
+                left: 63px;
+            }
+
+            @media screen and (max-width: 980px) {
+                top: -22px;
+                left: -26px;
+                transform: scale(0.4);
+            }
+        }
+        
+        &:before {
+            @media (max-width: 980px) {
+                background: url(../img/arrow-constructor-3.png) no-repeat;
+                background-size: contain;
+                right: -129px;
+                top: 81px;
+                transform: scale(1.2);
+                height: 42px;
+                width: 157px;
+                left: -15px;
+                top: 132px;
+            }        
+        }
+
+        &:after {
+            background: url(../img/arrow-constructor-1-2.png) no-repeat;
+            background-size: contain;
+            right: -123px;
+            top: 156px;
+            height: 24px;
+            width: 129px;
+
+            @media (max-width: 980px) {
+                background: url(../img/arrow-constructor-2-1-mob.png) no-repeat;
+                background-size: contain;
+                height: 59px;
+                width: 45px;
+                left: 160px;
+                top: 176px;
+            }
+        }
+
+        & .generator-row {
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 3;
+
+            &:nth-child(2) {
+                margin-top: -19px;
+                z-index: 2;
+            }
+
+            &:nth-child(3) {
+                margin-top: -18px;
+            }
+        }
+
+        & .item1 {
+            height: 72px;
+            top: 1px;
+            left: 6px;
+            z-index: 3;
+        }
+        
+        & .item2 {
+            height: 66px;
+            top: 8px;
+            left: -14px;
+            z-index: 4;
+
+            @media screen and (max-width: 980px) {
+                top: 7px;
+                left: -26px;
+            }
+        }
+        
+        & .item3 {
+            height: 53px;
+            top: 0;
+            left: 13px;
+            z-index: 1;
+
+            @media screen and (max-width: 980px) {
+                top: -14px;
+                left: 15px;
+            }
+        }
+        
+        & .item4 {
+            height: 90px;
+            left: -1px;
+            margin-top: -21px;
+            z-index: 2;
+
+            @media screen and (max-width: 980px) {
+                left: -12px;
+                margin-top: -16px;
+            }
+        }
+        
+        & .item5 {
+            height: 71px;
+            top: 0;
+            left: 9px;
+            z-index: 6;
+            margin-top: -19px;
+
+            @media screen and (max-width: 980px) {
+                margin-top: -45px;
+                left: 12px;
+            }
+        }
+        
+        & .item6 {
+            height: 46px;
+            top: -9px;
+            left: -24px;
+            z-index: 1;
+
+            @media screen and (max-width: 980px) {
+                top: -37px;
+                left: -39px;
+            }
+        }
+    }
+}
+
+
+.slider--prize-gen {
+    vertical-align: bottom;
+    width: auto;
+    padding: 1px 101px;
+    margin: 0px -70px;
+    box-shadow: 0px 0px 21px 1px rgba(0,9,29,0.49);
+
+    @media (max-width: 1280px) {
+        padding: 1px 83px;
+        margin: 0 -30px;
+    }
+
+    @media screen and (max-width: 980px) {
+        padding: 1px 0px;
+        margin: 3px -21px 13px;
+    }
+    
+    & .slick-list  {
+        padding: 21px 3px;
+        margin: -22px -3px;
+        z-index: 4;
+
+        &:before,
+        &:after {
+            content: '';
+            background-color: #712388;
+            width: 3px;
+            height: 100px;
+            position: absolute;
+            top: 21px;
+            left: 0;
+            z-index: 1;
+        }
+
+        &:after {
+            left: auto;
+            right: 0;
+        }
+    }
+    
+    &__item {
+        
+        &:hover {
+            cursor: pointer;
+        }
+        
+        & img{
+            height: 100px;
+
+            @media screen and (max-width: 980px) {
+                height: 50px;
+            }
+            
+             &:hover {
+                position: relative;
+                transform: scale(1.1);
+                z-index: 999;
+                overflow:visible;
+                box-shadow: 0px 0px 21px 1px rgba(0,9,29,0.49);
+            }
+        }
+    }
+    
+    & .slick-arrow {
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100px;
+        height: 100px;
+        background: #712388;
+        opacity: 1;
+        vertical-align: middle;
+
+        @media (max-width: 1280px) {
+            height: 100%;
+            width: 82px;
+        }
+
+        & svg {
+            transform: scale(0.8);
+
+            @media (max-width: 1280px) {
+                height: 43px;
+                width: 43px;
+            }
+        }
+    }
+    
+    & .slick-next {
+        right: 1px;
+    }
+    
+    & .slick-prev {
+        left: 1px;
+    }
+
+}
+
+.page-prize__wrap--total .page-prize-gen__res .slider--prize__img.gen4 .img-res--alt {
+    @media (max-width: 1280px) {
+        top: 91px;
+        left: 50px;
+    }
+
+    @media (max-width: 980px) {
+        top: 17px;
+        left: 14px;
+        transform: scale(0.4);
+    }
+}

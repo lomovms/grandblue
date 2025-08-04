@@ -1,0 +1,36 @@
+.elem-down {
+    margin-top: 3.6vw;
+    margin-bottom: 2vw;
+
+    @media screen and (max-width: 1600px) {
+        margin-bottom: 1.9vw;
+    }
+
+    @media (max-width: 1280px) {
+        margin-top: 3.3vw;
+        margin-bottom: 1.9vw;
+    }
+
+    @media screen and (max-width: 980px) {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        bottom: 28px;
+        transform: translate(-50%, 0);
+    }
+
+    & svg {
+        height: 3.35vw;
+        width: 3.35vw;
+
+        @media (max-width: 1280px) {
+            height: 3.7vw;
+            width: 3.7vw;
+        }
+
+        @media screen and (max-width: 980px) {
+            height: 33px;
+            width: 33px;
+        }
+    }
+}

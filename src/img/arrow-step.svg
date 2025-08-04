@@ -1,0 +1,16 @@
+<svg id="arrow-step" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c8d419;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="18" cy="18" r="18"/>
+  <path id="Rounded_Rectangle_14" data-name="Rounded Rectangle 14" class="cls-2" d="M666.689,1820.76a0.852,0.852,0,0,1-.273.18l-6.942,6.77a1.029,1.029,0,0,1-1.437,0,0.972,0.972,0,0,1,0-1.4l5.432-5.3H648.021a1,1,0,1,1,0-1.99h15.437l-5.451-5.32a0.978,0.978,0,0,1,0-1.41,1.041,1.041,0,0,1,1.447,0l7.164,6.99c0.012,0.01.029,0.01,0.041,0.02s0.016,0.03.027,0.04l0,0.01A0.98,0.98,0,0,1,666.689,1820.76Z" transform="translate(-639 -1802)"/>
+</svg>

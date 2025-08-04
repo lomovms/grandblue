@@ -1,0 +1,21 @@
+.elem-reset {
+    background: url(../img/icon-reset.svg) no-repeat center 0;
+    background-size: 64px auto;
+    border: none;
+    outline: none;
+    padding-top: 76px;
+    text-align: center;
+
+    @media (max-width: 1280px) {
+        background-size: 51px auto;
+        height: 51px;
+        padding-top: 61px;
+    }
+
+    @media screen and (max-width: 980px) {
+        background-size: 21px auto;
+        height: 21px;
+        padding-top: 0;
+        width: 21px;
+    }
+}

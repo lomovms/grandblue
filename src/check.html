@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		//= template/inc.head.html
+	</head>
+	<body>
+		<div class="page">
+			//= template/inc.header2.html
+			 
+            <div class="page-check">
+                <div class="container">
+                    
+                    <div class="title">
+                        <div class="title-item">
+                            <h1 class="title page-registration__title page-anketa__title">Загрузка чека
+                            </h1>
+                        </div>
+                        <div class="title-item hidden-xs">
+                            <div class="elem-action title--border">
+                                До конца акции осталось <span class="elem-action__num">30</span> дней
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="page-check__form" id="form__check">
+                        <div class="page-check__row padding">
+							<div class="page-check__item">
+								<div class="page-check__text">Количество продукции:
+								</div>
+							</div>
+							<div class="page-check__item">
+								<div class="page-check__text color-green-light">ТМ «GrandBlu»
+									<span class="hidden-xs">
+										<br>
+									</span>Intense
+								</div>
+								<input class="page-check__input input" type="text" maxlength="3">
+								<div class="page-check__text">шт.
+								</div>
+							</div>
+							<div class="page-check__item">
+								<div class="page-check__text color-blue-light">ТМ «GrandBlu»
+									<span class="hidden-xs">
+										<br>
+									</span>Creamy
+								</div>
+								<input class="page-check__input input" type="text" maxlength="3">
+								<div class="page-check__text">шт.
+								</div>
+							</div>
+						</div>
+                        <div class="page-check__row--file">
+							<div class="page-check__item--file">
+								<input id="dropZone" type="file" placeholder="Нажмите, чтобы выбрать файл, или перетащите его в эту область при помощи мыши."/>
+							</div>
+						</div>
+                        <div class="page-check__row--button text--center">
+							<div class="error">
+								<span>Ошибка: данный чек был загружен вами ранее и находится на проверке</span>
+							</div>
+							<input class="page-check__button elem-btn elem-btn--small" type="submit" value="Загрузить чек">
+						</div>
+                    </form>
+                    
+                    <div class="text--center">
+                       <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+                    </div>
+                </div>
+                    
+            </div>				      
+				      	      	      
+            //= template/inc.footer.html
+		</div>
+	</body>
+</html>

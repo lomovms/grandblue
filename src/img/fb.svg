@@ -1,0 +1,16 @@
+<svg id="fb" xmlns="http://www.w3.org/2000/svg" width="97.625" height="97" viewBox="0 0 97.625 97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #193478;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="48.813" cy="48.5" r="48.813"/>
+  <path id="Color_Fill_7_copy" data-name="Color Fill 7 copy" class="cls-2" d="M827.638,4003.4v-4.48a10.968,10.968,0,0,0-2.546-.17c-1.9.02-5.367-.36-7.117,3.21a12.391,12.391,0,0,0-.88,5.07h-3.631v4.75h3.677v14.02h6.049v-14.03h4.436v-4.68h-4.267s-0.381-2.23.821-3.16C825,4003.28,827.638,4003.4,827.638,4003.4Z" transform="translate(-771 -3962)"/>
+</svg>

@@ -1,0 +1,293 @@
+.box-prizefight {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 980px) {
+        display: block;
+    }
+
+    & .elem-buble__ico {
+        @media (max-width: 980px) {
+            height: 59px
+        }
+    }
+    
+    &__head {
+        text-align: center;
+        margin-bottom: 22px;
+        font-size: 18px;
+
+        @media (max-width: 1280px) {
+            font-size: 14px;
+            margin-bottom: 17px;
+        }
+    }
+
+    &__item {
+        @media (max-width: 1280px) {
+            width: 280px;
+            flex-basis: 280px;
+        }
+
+        @media (max-width: 980px) {
+            width: 100%;
+        }
+    }
+    
+    &__prize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 350px;
+        width: 350px;
+        height: 350px;
+        justify-content: center;
+
+        @media (max-width: 1280px) {
+            height: 280px;
+            width: 280px;
+            flex-basis: 280px;
+        }
+    }
+    
+     &__prize1 {
+        background: #c3d11a;
+        position: relative;
+         
+        & .box-prizefight__text {
+            position: absolute;
+            bottom: 36px;
+            left: 0px;
+            width: 100%;
+
+            @media (max-width: 1280px) {
+                bottom: 27px;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+         }
+         
+        & .box-prizefight__row {
+            margin-right: 17px;
+            margin-top: 4px;
+         }
+         
+         & .box-prizefight__text {
+             color: #0089b0;
+         }
+    }
+    
+    &__prize2 {
+        background: #feb802;
+        padding: 0px 50px 38px;
+        position: relative;
+        
+        & .bg-res2 {
+            width: 178px !important;
+        }
+        
+        & .img-res-alt {
+            transform: scale(0.6) !important;
+            left: 26.5%;
+            top: 134px;
+            
+             @media (max-width: 1280px) {
+                left: 15.5%;
+                top: 91px;
+            }
+
+            @media (max-width: 980px) {
+                transform: scale(0.8) !important;
+                left: 20.5%;
+                top: 114px;
+            }
+        }
+        
+        
+        & .box-prizefight__text {
+            position: absolute;
+            bottom: 36px;
+            left: 0;
+            width: 100%;
+            color: #002b58;
+
+            @media (max-width: 1280px) {
+                bottom: 27px;
+            }
+        }
+        
+        & .slider--prize__img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 28px 0px 0 20px;
+            position: relative;
+
+            @media (max-width: 1280px) {
+                height: auto;
+                margin-bottom: 12px;
+                padding-top: 46px;
+                padding-left: 0px;
+                transform: scale(0.9);
+            }
+
+            @media (max-width: 980px) {
+                height: auto;
+                margin-bottom: 12px;
+                padding-top: 46px;
+                padding-left: 0px;
+                transform: scale(0.8);
+            }
+
+            & .bg-res {
+                @media (max-width: 980px) {
+                    margin: 10px -29px 0 -9px !important;
+                }
+            }
+        }
+        
+        & .page-prize-gen__res .slider--prize__img.gen4 .bg-res.case {
+            width: 170px;
+            top: 15px;
+            left: -19px;
+            
+            @media (max-width: 1280px) {
+                top:0px;    
+                width: 140px;
+            }
+
+            @media (max-width: 980px) {
+                top: -10px;
+                width: 170px;
+            }
+        }
+        
+        & .page-prize-gen__res .slider--prize__img.gen4 .img-res--alt {
+            top: 100px;
+            transform: scale(0.5);
+            
+                @media (max-width: 1280px) {
+                    top: 73px;
+                    left: 30px;
+                    transform: scale(0.4);
+                }
+
+                @media (max-width: 980px) {
+                    top: 99px;
+                    left: -5px;
+                    transform: scale(0.5);
+                }
+                
+        }
+        
+    }
+    
+    &__prize3 {
+        background: linear-gradient(to bottom, #0fccc8 0%, #08a5a4 100%);
+        position: relative;
+        
+        & .box-prizefight__text {
+            position: absolute;
+            bottom: 35px;
+            left: 0px;
+            width: 100%;
+            
+
+            @media (max-width: 1280px) {
+                bottom: 27px;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+         }
+        
+        & .box-prizefight__img {
+            @media (max-width: 1280px) {
+                transform: scale(0.8);
+            }
+        }
+    }
+    
+    &__row {
+        display: inline-flex;
+    }
+    
+    &__text {
+        line-height: 22px;
+        padding: 0 20px;
+    }
+    
+    &__info {
+        text-align: center;
+        background: #1d154a;
+        width: 329px;
+        border-radius: 100px;
+        font-size: 16px;
+        padding: 16px 0;
+        margin: 0 auto;
+        margin-top: 42px;
+        margin-bottom: 61px;
+
+        @media (max-width: 1280px) {
+            width: 94%;
+            font-size: 13px;
+            padding: 13px 0;
+            margin: 33px auto 48px;
+        }
+
+        @media (max-width: 980px) {
+            margin: 25px auto 48px;
+        }
+
+        &--big {
+            width: auto;
+            display: inline-block;
+            margin: -18px 0 33px;
+            padding: 16px 48px;
+
+            @media (max-width: 1280px) {
+                margin: -11px 0 26px;
+                padding: 14px 33px;
+            }
+
+            @media (max-width: 980px) {
+                margin: -10px 0 22px;
+                padding: 15px 7px;
+                width: 100%;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    &__error {
+        color: #eb1d57;    
+    }
+    
+    &__img {
+        & img {
+            width: 233px;
+            margin-top: -13px;
+            margin-left: 14px;
+        }
+    }
+
+    &__blue {
+        color: #6ed4ff;
+        border: 1px dashed #6ed4ff;
+        background-color: transparent;
+    }
+
+    &__yellow {
+        color: #feb802;
+        border: 1px dashed #feb802;
+        background-color: transparent;
+    }
+
+    &__no {
+        background-color: #1d154a;
+        border: 1px solid #1d154a;
+        color: #c3d11a;
+    }
+    
+}

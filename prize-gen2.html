@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="robots" content="noindex,nofollow" />
+		<title>Название сайта</title>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<script src="libs/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="libs/slick.min.js"></script>
+		<script src="libs/jquery.formstyler.js"></script>
+		<script src="libs/jquery.maskedinput.js"></script>
+		<script src="libs/jquery.ui.autocomplete.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/test.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<header class="header header--inner">
+				<nav class="menu">
+			        <div class="container">
+			            <button class="menu__mobile">
+			                <span>menu</span>
+			            </button>
+			            <div class="menu-logo">
+			                <img src="./img/grand-logo.svg" alt="">
+			            </div>
+			            <div class="elem-action hidden-sm hidden-lg">
+			                До конца акции <span class="elem-action__num">30</span> дней
+			            </div>
+			            <ul class="menu-list">
+			                <li class="menu-item hidden-sm hidden-lg"><a href="#" class="menu-btn ">Выход</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">О продукте</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Правила и призы</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Победители</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link">Вопрос-ответ</a></li>
+			                <li class="menu-item"><a href="#" class="menu-link color--blue">Личный кабинет</a></li>
+			                <li class="menu-item hidden-xs"><a href="#" class="menu-btn ">Выход</a></li>
+			            </ul>
+			        </div>
+			    </nav>
+			</header>
+			
+            <div class="page-prize-gen">
+                <div class="container">
+                    
+                    <div class="title">
+                        <div class="title-item">
+                            <h1 class="title page-registration__title page-anketa__title">Выбор приза
+                            </h1>
+                            <div class="title__text">Настало время выбрать приз, за который вы будете бороться</div>
+                        </div>
+                        <div class="title-item hidden-xs">
+                            <div class="elem-action title--border">
+                                До конца акции осталось <span class="elem-action__num">30</span> дней
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="page-prize-gen__wrap">
+                        <h2 class="hidden-xs">Придумайте свой дизайн</h2>
+                        <p class="title__text title__text--small">Нажимайте на квадраты и меняйте изображение в них на ленте внизу</p>
+                        <div class="page-prize-gen__row">
+                            <div class="page-prize-gen__res">
+                                <div class="slider--prize__img slider--prize__img--alt">
+                                     <img class="bg-res case" src="/img/content/prize/case-w.png" alt="case">
+                                     <div class="img-res img-res--alt gen-img">
+                                        <div class="generator-row">
+                                            <div class="page-prize-gen__item item1"><img src="./img/content/prize2/square-15.jpg" alt=""></div>
+                                            <div class="page-prize-gen__item item2"><img src="./img/content/prize2/square-1.jpg" alt=""></div>
+                                            <div class="page-prize-gen__item item3"><img src="./img/content/prize2/square-11.jpg" alt=""></div>
+                                            <div class="page-prize-gen__item item4"><img src="./img/content/prize2/square-10.jpg" alt=""></div>
+                                            <div class="page-prize-gen__item item5"><img src="./img/content/prize2/square-17.jpg" alt=""></div>
+                                            <div class="page-prize-gen__item item6"><img src="./img/content/prize2/square-8.jpg" alt=""></div>
+                                       </div>
+                                     </div>
+                                 </div>
+                                 <div class="text--center hidden-xs">
+                                     <div class="slider--title">Чемодан с принтом</div>
+                                 </div>
+                            </div>
+                            <div class="page-prize-gen__generator page-prize-gen__generator--alt">
+                               <div class="generator-row">
+                                    <div class="page-prize-gen__item item1 js-gen-img" data-img="square-15.jpg"><img src="./img/content/prize2/square-15.jpg" alt=""></div>
+                                    <div class="page-prize-gen__item item2 js-gen-img" data-img="square-1.jpg"><img src="./img/content/prize2/square-1.jpg" alt=""></div>
+                                    <div class="page-prize-gen__item item3 js-gen-img" data-img="square-11.jpg"><img src="./img/content/prize2/square-11.jpg" alt=""></div>
+                                    <div class="page-prize-gen__item item4 js-gen-img" data-img="square-10.jpg"><img src="./img/content/prize2/square-10.jpg" alt=""></div>
+                                    <div class="page-prize-gen__item item5 js-gen-img" data-img="square-17.jpg"><img src="./img/content/prize2/square-17.jpg" alt=""></div>
+                                    <div class="page-prize-gen__item item6 js-gen-img" data-img="square-8.jpg"><img src="./img/content/prize2/square-8.jpg" alt=""></div>
+                               </div>
+                               <div class="page-prize-gen__reset hidden-sm hidden-lg">
+                                    <button class="elem-reset js-reset" type="submit" value="" tabindex="0"></button>
+                                </div>
+                            </div>   
+                            <div class="page-prize-gen__menu hidden-xs">
+                                <div class="page-prize-gen__reset">
+                                    <button class="elem-reset js-reset" type="submit" value="" tabindex="0">Сбросить</button>
+                                </div>
+                                <input class="elem-btn elem-btn--small" type="submit" value="Сохранить приз" tabindex="0">
+                                <input class="elem-btn elem-btn--small" type="submit" value="Отменить" tabindex="0" disabled>
+                            </div>   
+                        </div>
+                        <div class="text--center hidden-sm hidden-lg">
+                            <div class="slider--title">Чемодан с принтом</div>
+                        </div>
+                        <div class="slider-wrapper">
+                            <div class="js-slider--prize-gen slider--prize-gen">
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-1.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-2.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-3.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-4.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-5.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-6.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-7.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-8.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-9.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-10.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-11.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-12.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-13.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-14.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-15.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-16.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-17.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-18.jpg" alt="">
+                                </div>
+                                <div class="slick-slide slider--prize-gen__item js-chose-img">
+                                    <img src="./img/content/prize2/square-19.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-prize-gen__menu hidden-sm hidden-lg">
+                            <input class="elem-btn elem-btn--small" type="submit" value="Сохранить приз" tabindex="0">
+                            <input class="elem-btn elem-btn--small" type="submit" value="Отменить" tabindex="0" disabled>
+                        </div> 
+                    </div>
+
+                    <div class="text--center">
+                        <a href="#" class="elem-feedback elem-feedback--inner">Обратная связь</a>
+                    </div>
+                </div>
+            </div>
+		      
+            <footer class="footer">
+            	<div class="container">
+                    <div class="footer-copy">
+                        *Купи сыр ТМ «GRANDBLU» Creamy и/или ТМ «GRANDBLU» Intense со стикером, сохрани чек, зарегистрируй код со стикера на сайте GrandBlu.ru, получи гарантированный подарок – 50 рублей на телефон (за регистрацию первого кода);  участвуй в еженедельных розыгрышах призов: материалов с индивидуальным дизайном или сертификатов Ozon и Ticketland номиналом 1 000 рублей, и розыгрыше главного приза (на выбор): сертификата Ozon Travel номиналом 50 000 рублей / сертификата ИКЕЯ номиналом 50 000 рублей / миксера KitchenAid. Срок проведения Акции  с 02.04.2018 по 24.06.2018. Срок вручения призов с 09.04.18г. по 24.07.18г. Информация об Организаторе Акции, Правилах её проведения, количестве призов, месте и порядке их получения  на сайте GrandBlu.ru
+                    </div>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Соглашение на обработку персональных данных</a>
+                        <a href="#" class="footer-link">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer-age">
+                        <img src="./img/18plus.svg" alt="">
+                    </div>
+                </div>
+            </footer>
+		</div>
+	</body>
+</html>
